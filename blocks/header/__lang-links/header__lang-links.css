@@ -1,8 +1,6 @@
-.header {
-  width: 928px;
+.header__lang-links {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 28px;
-  margin: auto;
+  gap: 18px;
 }

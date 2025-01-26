@@ -1,0 +1,7 @@
+.places__text {
+  grid-area: text;
+}
+
+.places__text > :nth-child(2) {
+  padding-top: 26px;
+}

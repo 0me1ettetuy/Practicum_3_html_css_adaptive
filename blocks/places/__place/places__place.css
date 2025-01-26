@@ -1,0 +1,7 @@
+.places__place {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  grid-template-rows: min-content min-content;
+  grid-template-areas: "title website" "image text";
+  gap: 38px 42px;
+}

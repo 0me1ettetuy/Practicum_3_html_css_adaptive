@@ -7,5 +7,21 @@
   color: #fff;
   width: 640px;
   padding-top: 32px;
-  padding-bottom: 56px;
+  padding-bottom: 64px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__subtitle {
+    padding-bottom: 56px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 20px;
+    width: 288px;
+    padding-top: 8px;
+    padding-bottom: 40px;
+  }
 }

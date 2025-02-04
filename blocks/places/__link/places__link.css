@@ -4,3 +4,8 @@
   line-height: 22px;
   color: #fff;
 }
+
+
+.places__link:hover {
+  opacity: .8;
+}
